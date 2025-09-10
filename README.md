@@ -84,18 +84,18 @@ cat > file22
 
 cut -c1-3 file11
 ## OUTPUT
-
+![alt text](<Screenshot at 2025-09-10 13-57-06.png>)
 
 
 
 cut -d "|" -f 1 file22
 ## OUTPUT
-
+![alt text](<Screenshot at 2025-09-10 13-57-52.png>)
 
 
 cut -d "|" -f 2 file22
 ## OUTPUT
-
+![alt text](<Screenshot at 2025-09-10 13-58-30.png>)
 
 cat < newfile 
 ```
@@ -109,29 +109,29 @@ hello world
  
 grep Hello newfile 
 ## OUTPUT
-
+![alt text](<Screenshot at 2025-09-10 14-00-07.png>)
 
 
 grep hello newfile 
 ## OUTPUT
-
+![alt text](<Screenshot at 2025-09-10 14-00-42.png>)
 
 
 
 grep -v hello newfile 
 ## OUTPUT
-
+![alt text](<Screenshot at 2025-09-10 14-01-10.png>)
 
 
 cat newfile | grep -i "hello"
 ## OUTPUT
-
+![alt text](<Screenshot at 2025-09-10 14-02-09.png>)
 
 
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
-
+![alt text](<Screenshot at 2025-09-10 14-02-53.png>)
 
 
 
