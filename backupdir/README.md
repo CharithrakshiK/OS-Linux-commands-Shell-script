@@ -251,61 +251,61 @@ sed  -e 's/Ram/Sita/' file23
 
 sed  -e '2s/Ram/Sita/' file23
 ## OUTPUT
-![alt text](<Screenshot at 2025-09-11 05-35-12.png>)
+
 
 
 sed  '/tom/s/5000/6000/' file23
 ## OUTPUT
-![alt text](<Screenshot at 2025-09-11 05-35-41.png>)
+
 
 
 sed -n -e '1,5p' file23
 ## OUTPUT
-![alt text](<Screenshot at 2025-09-11 05-36-11.png>)
+
 
 
 sed -n -e '2,/Joe/p' file23
 ## OUTPUT
-![alt text](<Screenshot at 2025-09-11 05-36-42.png>)
+
 
 
 
 sed -n -e '/tom/,/Joe/p' file23
 ## OUTPUT
-![alt text](<Screenshot at 2025-09-11 05-37-07.png>)
+
 
 
 seq 10 
 ## OUTPUT
-![alt text](<Screenshot at 2025-09-11 05-37-34.png>)
+
 
 
 seq 10 | sed -n '4,6p'
 ## OUTPUT
-![alt text](<Screenshot at 2025-09-11 05-38-07.png>)
+
 
 
 seq 10 | sed -n '2,~4p'
 ## OUTPUT
-![alt text](<Screenshot at 2025-09-11 05-38-32.png>)
+
 
 
 seq 3 | sed '2a hello'
 ## OUTPUT
-![alt text](<Screenshot at 2025-09-11 05-39-02.png>)
+
 
 
 seq 2 | sed '2i hello'
 ## OUTPUT
-![alt text](<Screenshot at 2025-09-11 05-39-28.png>)
+
 
 seq 10 | sed '2,9c hello'
 ## OUTPUT
-![alt text](<Screenshot at 2025-09-11 05-39-52.png>)
+
 
 sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT
-![alt text](<Screenshot at 2025-09-11 05-40-40.png>)
+
 
 
 sed -n '2,4{s/$/*/;p}' file23
@@ -322,7 +322,7 @@ cat > file21
 ``` 
 sort file21
 ## OUTPUT
-![alt text](<Screenshot at 2025-09-11 05-42-46.png>)
+
 
 cat > file22
 ```
@@ -335,14 +335,14 @@ cat > file22
 ``` 
 uniq file22
 ## OUTPUT
-![alt text](<Screenshot at 2025-09-11 05-43-35.png>)
+
 
 
 #Using tr command
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
-![alt text](<Screenshot at 2025-09-11 05-44-10.png>)
+
 cat < urllist.txt
 ```
 www. yahoo. com
@@ -358,18 +358,18 @@ www. mrcet.... com
  ```
 cat urllist.txt | tr -d ' '
  ## OUTPUT
-![alt text](<Screenshot at 2025-09-11 05-45-16.png>)
+
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
-![alt text](<Screenshot at 2025-09-11 05-45-43.png>)
+
 
 
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
-![alt text](<Screenshot at 2025-09-11 05-46-36.png>)
+
 
 mkdir backupdir
  
@@ -379,19 +379,19 @@ cd backupdir
  
 tar -tvf backup.tar
 ## OUTPUT
-![alt text](<Screenshot at 2025-09-11 05-48-12.png>)
+
 
 tar -xvf backup.tar
 ## OUTPUT
-![alt text](<Screenshot at 2025-09-11 05-48-53.png>)
+
 gzip backup.tar
 
 ls .gz
 ## OUTPUT
- ![alt text](<Screenshot at 2025-09-11 05-51-27.png>)
+ 
 gunzip backup.tar.gz
 ## OUTPUT
-![alt text](<Screenshot at 2025-09-11 05-52-16.png>)
+
  
 # Shell Script
 ```
