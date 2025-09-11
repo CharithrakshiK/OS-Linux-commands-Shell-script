@@ -413,7 +413,7 @@ stop
 
 cat herecheck.txt
 ## OUTPUT
-
+![alt text](<Screenshot at 2025-09-11 06-11-17.png>)
 
 cat < scriptest.sh 
 ```bash
@@ -451,11 +451,11 @@ chmod 777 scriptest.sh
 ./scriptest.sh 1 2 3
 
 ## OUTPUT
-
+![alt text](<Screenshot at 2025-09-11 06-12-47.png>)
  
 ls file1
 ## OUTPUT
-
+![alt text](<Screenshot at 2025-09-11 06-13-09.png>)
 echo $?
 ## OUTPUT 
 ./one
@@ -463,12 +463,12 @@ bash: ./one: Permission denied
  
 echo $?
 ## OUTPUT 
- 
+ ![alt text](<Screenshot at 2025-09-11 06-13-42.png>)
 abcd
  
 echo $?
  ## OUTPUT
-
+![alt text](<Screenshot at 2025-09-11 06-14-42.png>)
 
  
 # mis-using string comparisons
@@ -500,14 +500,14 @@ echo "$val1 is less than $val2"
 fi
 ```
 ##OUTPUT
-
+![alt text](<Screenshot at 2025-09-11 06-16-13.png>)
 
 
 chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
-
+![alt text](<Screenshot at 2025-09-11 06-16-58.png>)
 
 # check file ownership
 cat < psswdperm.sh 
@@ -534,7 +534,7 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
-
+![alt text](<Screenshot at 2025-09-11 06-18-09.png>)
 # check if with file location
 cat>ifnested.sh 
 ```bash
@@ -580,7 +580,7 @@ fi
 
 ./ifnested.sh 
 ## OUTPUT
-
+![alt text](<Screenshot at 2025-09-11 06-18-37.png>)
 
 
 # using numeric test comparisons
@@ -624,7 +624,7 @@ $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
 ##OUTPUT
-
+![alt text](<Screenshot at 2025-09-11 06-19-37.png>)
 # check if a file
 cat > ifnested.sh 
 ```bash
@@ -673,7 +673,7 @@ $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
 ##OUTPUT
-
+![alt text](<Screenshot at 2025-09-11 06-19-56.png>)
 # looking for a possible value using elif
 cat elifcheck.sh 
 ```bash
@@ -701,7 +701,7 @@ $ chmod 755 elifcheck.sh
  
 $ ./elifcheck.sh 
 ## OUTPUT
-
+![alt text](<Screenshot at 2025-09-11 06-20-19.png>)
 
 # testing compound comparisons
 cat> ifcompound.sh 
@@ -717,7 +717,7 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
-
+![alt text](<Screenshot at 2025-09-11 06-22-56.png>)
 # using the case command
 cat >casecheck.sh 
 ```bash
@@ -751,7 +751,8 @@ done
 $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
- 
+ ## output
+ ![alt text](<Screenshot at 2025-09-11 06-31-03.png>)
  
 cat untiltest.sh 
 ```bash
@@ -828,6 +829,7 @@ done
 $ chmod 755 forin1.sh
 
 ## OUTPUT
+
 cat forinfile.sh 
 ```bash
 #!/bin/bash
