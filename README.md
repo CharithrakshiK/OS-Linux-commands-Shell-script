@@ -137,12 +137,12 @@ cat newfile | grep -i -c "hello"
 
 grep -R ubuntu /etc
 ## OUTPUT
-
+![alt text](<Screenshot at 2025-09-11 04-14-17.png>)
 
 
 grep -w -n world newfile   
 ## OUTPUT
-
+![alt text](<Screenshot at 2025-09-11 04-20-05.png>)
 
 cat < newfile 
 ```
@@ -165,60 +165,60 @@ Linux is best in this World
  ```
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
-
+![alt text](<Screenshot at 2025-09-11 04-27-25.png>)
 
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
-
+![alt text](<Screenshot at 2025-09-11 04-28-54.png>)
 
 
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
-
+![alt text](<Screenshot at 2025-09-11 04-29-37.png>)
 
 
 
 egrep '(^hello)' newfile 
 ## OUTPUT
-
+![alt text](<Screenshot at 2025-09-11 04-30-09.png>)
 
 
 egrep '(world$)' newfile 
 ## OUTPUT
-
+![alt text](<Screenshot at 2025-09-11 04-30-44.png>)
 
 
 egrep '(World$)' newfile 
 ## OUTPUT
-
+![alt text](<Screenshot at 2025-09-11 04-32-37.png>)
 
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
-
+![alt text](<Screenshot at 2025-09-11 04-33-31.png>)
 
 
 egrep '[1-9]' newfile 
 ## OUTPUT
-
+![alt text](<Screenshot at 2025-09-11 04-34-17.png>)
 
 
 egrep 'Linux.*world' newfile 
 ## OUTPUT
-
+![alt text](<Screenshot at 2025-09-11 04-34-56.png>)
 
 egrep 'Linux.*World' newfile 
 ## OUTPUT
-
+![alt text](<Screenshot at 2025-09-11 04-35-43.png>)
 
 egrep l{2} newfile
 ## OUTPUT
-
+![alt text](<Screenshot at 2025-09-11 04-36-24.png>)
 
 
 egrep 's{1,2}' newfile
 ## OUTPUT 
-
+![alt text](<Screenshot at 2025-09-11 04-38-26.png>)
 
 cat > file23
 ```
@@ -236,12 +236,12 @@ cat > file23
 
 sed -n -e '3p' file23
 ## OUTPUT
-
+![alt text](<Screenshot at 2025-09-11 04-40-04.png>)
 
 
 sed -n -e '$p' file23
 ## OUTPUT
-
+![alt text](<Screenshot at 2025-09-11 04-41-16.png>)
 
 
 sed  -e 's/Ram/Sita/' file23
@@ -251,7 +251,7 @@ sed  -e 's/Ram/Sita/' file23
 
 sed  -e '2s/Ram/Sita/' file23
 ## OUTPUT
-
+![alt text](<Screenshot at 2025-09-11 04-43-17.png>)
 
 
 sed  '/tom/s/5000/6000/' file23
