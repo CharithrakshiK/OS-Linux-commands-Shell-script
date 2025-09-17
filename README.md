@@ -952,7 +952,7 @@ $ chmod 755 exread.sh
  
 $ ./exread.sh 
 ## OUTPUT
-
+![alt text](<Screenshot at 2025-09-17 02-13-41.png>)
 
  cat exread1.sh
 ```bash
@@ -964,7 +964,7 @@ echo "Hello $name, welcome to my program. “
 $ chmod 755 exread1.sh 
 
 ## OUTPUT
-
+![alt text](<Screenshot at 2025-09-17 02-13-41.png>)
 
 
 $ ./exread1.sh 
@@ -985,6 +985,7 @@ echo "Usage: badtest1 a b"
 fi
 ```
 ## OUTPUT
+![alt text](<Screenshot at 2025-09-17 02-15-36.png>)
  ./funcex.sh 
 
  
@@ -1002,6 +1003,7 @@ done
 $ chmod 777 argshift.sh
 
 ## OUTPUT
+![alt text](<Screenshot at 2025-09-17 02-16-53.png>)
 $ ./argshift.sh 1 2 3
  
  cat argshift1.sh
@@ -1019,6 +1021,7 @@ done
 ```
 $ chmod 777 argshift.sh
 ## OUTPUT
+![alt text](<Screenshot at 2025-09-17 02-17-54.png>)
 $ ./argshift.sh 1 2 3
  
 cat argshift.sh
@@ -1032,6 +1035,7 @@ done
 set +x
 ```
 ## OUTPUT
+![alt text](<Screenshot at 2025-09-17 02-19-16.png>)
  ./argshift.sh 1 2 3
  
  
@@ -1064,7 +1068,7 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
- 
+ ![alt text](<Screenshot at 2025-09-17 02-20-45.png>)
 cat > palindrome.sh
 ```bash
 #num=545
@@ -1092,7 +1096,7 @@ fi
 ```
 ## OUTPUT
 
-
+![alt text](<Screenshot at 2025-09-17 02-22-27.png>)
 
 # RESULT:
 The Commands are executed successfully.
