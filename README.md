@@ -829,7 +829,7 @@ done
 $ chmod 755 forin1.sh
 
 ## OUTPUT
-
+![alt text](<Screenshot at 2025-09-16 01-01-33.png>)
 cat forinfile.sh 
 ```bash
 #!/bin/bash
@@ -851,7 +851,7 @@ Bhadrachalam
 Khammam
 
 ## OUTPUT
-
+![alt text](<Screenshot at 2025-09-16 01-03-58.png>)
 
 cat forctype.sh 
 ```bash
@@ -865,7 +865,7 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype.sh 
 ## OUTPUT
-
+![alt text](<Screenshot at 2025-09-16 01-06-30.png>)
 cat forctype1.sh 
 ```bash
 #!/bin/bash
@@ -878,7 +878,7 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype1.sh 
 ## OUTPUT
-
+![alt text](<Screenshot at 2025-09-16 13-28-32.png>)
 cat fornested1.sh 
 ```bash
 #!/bin/bash
@@ -896,7 +896,7 @@ $ chmod 755 fornested1.sh
  
 $ ./fornested1.sh 
  ## OUTPUT
-
+![alt text](<Screenshot at 2025-09-16 13-52-04.png>)
  
 cat forbreak.sh 
 ```bash
@@ -913,7 +913,7 @@ done
 echo "The for loop is completed“
 ```
 ## OUTPUT
-
+![alt text](<Screenshot at 2025-09-16 13-53-29.png>)
 $ chmod 755 forbreak.sh
  
 $ ./forbreak.sh 
@@ -938,7 +938,7 @@ $ chmod 755 forcontinue.sh
  
 $ ./forcontinue.sh 
 ## OUTPUT
- 
+ ![alt text](<Screenshot at 2025-09-16 13-56-25.png>)
 cat exread.sh 
 ```bash
 #!/bin/bash
